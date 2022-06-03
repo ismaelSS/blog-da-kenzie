@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="aqui você vi encontrar um apanah">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Ubuntu:wght@300&family=Work+Sans:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/style.css">
+
+    <link rel="icon" href="./src/img/logo-kenzie.png">
+
+    <title>O melhor do blog da kenzie</title>
+
+</head>
+<body>
+    
+    <header id="header">
+
+        <img id="header__logo" src="./src/img/logo-kenzie.png" alt="logo da kenzie academi">
+        <p id="header__titulo">Blog da kenzie</p>
+
+         <nav>
+            <a class="header__link" target="_blank" href="https://kenzie.com.br/blog/">blog original</a>
+            <a class="header__link" target="_blank" href="">materias</a>
+            <a class="header__link" target="_blank" href="">meu linkedin</a>
+         </nav>
+
+         <div id="header__areaBotao" onclick="abrirUrlQSP()">
+            <a id="QSP" target="_blank" href="https://inscricao.kenzie.com.br/"><strong>Quero ser programador(a)</strong></a>
+            <img src="./src/img/seta.svg" alt="">
+        </div>
+                    
+    </header>
+
+    <main>
+        <ul id="lista-banners">
+            <li class="banner" onmouseenter="acender()">
+                <a href="https://kenzie.com.br/blog/framework/" target="_blank">
+                    <div class="autor">
+                        <img class="autor__img" src="./src/img/autores/daniel-kriger.jpeg" alt=" foto do autor">
+                        <p class="autor__p"><strong>por Daniel kriger</strong> | 27/05/22</p>
+                    </div>
+                    <div >
+                        <img class="banner__img" src="./src/img/baners/frameworks.webp" alt="mulher programando">
+                    </div>
+                    <div class="post-info">
+                        <article>
+                            <h2>O QUE SÃO FRAMEWORKS E POR QUE SÃO IMPORTANTES PARA OS DEVS</h2>
+                        
+                            <p>
+                                Quando sua função, porém, é construir diversas vezes o mesmo tipo de aplicação,
+                                reescrever a mesma estrutura de código de novo e de novo pode ser meio cansativo, certo?
+                            </p>
+                        </article>
+                    </div>
+                </a> 
+            </li>
+
+            <li class="banner" onmouseenter="acender()">
+                <a href="https://kenzie.com.br/blog/modelagem-de-dados/" target="_blank">
+                    <div class="autor">
+                        <img class="autor__img" src="./src/img/autores/ugo-roveda.png" alt="imagem do autor">
+                        <p class="autor__p"><strong>por Ugo Rovela</strong> | 25/05/22</p>
+                    </div>
+                    <div>
+                        <img class="banner__img"  src="./src/img/baners/modelagem-de-dados.webp" alt="computador sobre  mesa com imagem de maquete ao lado">
+                    </div>
+                    <div class="post-info">
+                        <article>
+                            <h2>MODELAGEM DE DADOS: O QUE É, QUAIS SÃO AS ETAPAS E COMO FAZER</h2>
+
+                            <p>
+                            Nos dias atuais o tema modelagem de dados é extremamente relevante,
+                            pois tanto o armazenamento quanto a administração de dados se tornaram essenciais conforme o avanço da tecnologia.
+                            </p>
+                        </article>
+                    </div> 
+                </a>
+            </li>
+
+            <li class="banner" onmouseenter="acender()">
+                <a href="https://kenzie.com.br/blog/segundo-idioma/" target="_blank">
+                    <div class="autor">
+                        <img class="autor__img" src="./src/img/autores/daniel-kriger.jpeg" alt="imagem do autor">
+                        <p class="autor__p"><strong>por Daniel Kringer</strong> | 20/05/22</p>
+                    </div>
+                    <div>
+                        <img class="banner__img" src="./src/img/baners/importancia-ingles.webp" alt="post-it pedurado em um varal preço com um pregador">
+                    </div>
+                    <div class="post-info">
+                        <article>
+                        <h2>A IMPORTÂNCIA DE UM SEGUNDO IDIOMA PARA A ÁREA DE TI</h2>
+
+                        <p>
+                            Aprender um novo idioma pode abrir mais portas do que você imagina.
+                            Nos dias atuais saber uma segunda língua já é praticamente um requisito quase que essencial.
+                        </p>
+
+                    </article>
+                    </div> 
+                </a>
+            </li>
+
+            <li class="banner" onmouseenter="acender()">
+                <a href="https://kenzie.com.br/blog/habilidades-de-um-desenvolvedor/" target="_blank">
+                    <div class="autor">
+                        <img class="autor__img" src="./src/img/autores/ugo-roveda.png" alt="imagem do autor">
+                        <p class="autor__p"><strong>por Ugo Rovela</strong> | 18/05/22</p>
+                    </div>
+                    <div>
+                        <img class="banner__img" src="./src/img/baners/habiliddes-de-um-desenvolvedor-web.webp" alt="pessoa programando">
+                    </div>
+                    <div class="post-info">
+                        <article>
+                        <h2>HABILIDADES DE UM DESENVOLVEDOR WEB: HARD SKILLS E SOFT SKILLS</h2>
+
+                        <p>
+                            Um desenvolvedor web é o responsável por toda a estrutura de um site,
+                            ele é quem torna realidade todo o design e funcionalidades do site da maneira que conhecemos.
+                            
+                        </p>
+
+                    </article>
+                    </div> 
+                </a>
+            </li>
+        </ul>
+    </main>
+    <script src="./src/js/interacoes.js"></script>
+
+    <footer>
+        <strong><p id="p-footer">Deseseja receber nosssas noticias em primeira mão?</p></strong>
+    <form>
+        <label for="mail">e-mail</label>
+        <input id="campo-email" type="email" name="" id="mail" placeholder="Digite seu email aqui" required>
+        <button type="submit">Receber newsletter</button>
+    </form>
+    </footer>
+</body>
+
+
+</html>

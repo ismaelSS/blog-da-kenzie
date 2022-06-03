@@ -1,0 +1,130 @@
+header{
+    display: flex;
+    background-color: #00013c ;
+    color: aliceblue;
+    font-family: "Montserrat", sans-serif;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.399);
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    max-height: 100px;
+    margin: 0px;
+    width: 100%;
+}
+nav{
+    position: absolute;
+    left: 400px;
+    display:flex;
+    flex-direction: row;
+    line-height: 100px;
+    flex-wrap: nowrap;
+    justify-content:space-between;
+    width: 400px;
+    text-transform: uppercase;
+}
+
+#header__logo{
+    width: 100px;
+    justify-content: start;
+}
+
+#header__titulo{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 30px;
+    position: absolute;
+    left: 100px;
+}
+
+
+.header__link{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+#header__areaBotao{
+    color: aliceblue;
+    width: 28.625rem;
+    max-width: 430px;
+    background-color: #0000ff;
+    height: 100%;
+    line-height: 100px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+#QSP{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 1.125rem;
+    text-transform: uppercase;
+}
+
+
+    /*BANNERS*/
+body{
+    background-color: rgb(232, 236, 237);
+    font-family: sans-serif;
+}
+main{
+    width: 95vw;
+}
+
+#lista-banners{
+list-style: none;
+display: grid;
+width: inherit;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+gap: 0px 20px;
+}
+
+.banner{
+    width: 100%;
+    background-color: #FFFFFF;
+}
+.banner a{
+    text-decoration: none;
+    color: rgb(24, 23, 23);
+    
+}
+
+.autor{
+    display:flex;
+}
+
+.autor__p{
+font-size: 20px;
+}
+
+.autor__img{
+    border-radius: 50%;
+    width: 50px;
+    margin: 7px;
+}
+
+.banner__img{
+width:100%;
+height:30vh;
+}
+
+.post-info{
+    width: 100%;
+}
+
+.post-info p{
+font-size: 20px;
+}
+
+    /*FOOTER*/
+footer{
+    background-color: #00013c;
+    color: #FFFFFF;
+    box-shadow: 3px 0px 10px rgba(0, 0, 0, 0.545);
+}
+
+#p-footer{
+    font-size: 23px;
+    font-style:inherit;
+}
+
+#campo-email{
+    min-width: 300px;
+}
